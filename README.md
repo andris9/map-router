@@ -4,6 +4,9 @@
 
 Requires Node v0.12 or iojs. The module does not run on Node v0.10 as it uses [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) constructor which is not enabled by default (you might get it working with the `--harmony` flag though).
 
+[![Build Status](https://secure.travis-ci.org/andris9/map-router.svg)](http://travis-ci.org/andris9/map-router)
+[![npm version](https://badge.fury.io/js/map-router.svg)](http://badge.fury.io/js/map-router)
+
 The goals of this router are:
 
   * Should be very fast
