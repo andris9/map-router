@@ -84,8 +84,12 @@ router.unregister(method, path)
 
 Where
 
-  * **method** is the method to use or `'ALL'` for matching all methods
+  * **method** is the method to use
   * **path** is the path to the route (eg. `'/path/to/handler'`)
+
+```javascript
+router.register('GET', '/');
+```
 
 ### Find a Route for a Path
 
