@@ -88,7 +88,7 @@ Where
   * **path** is the path to the route (eg. `'/path/to/handler'`)
 
 ```javascript
-router.register('GET', '/');
+router.unregister('GET', '/');
 ```
 
 ### Find a Route for a Path
